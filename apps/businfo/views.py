@@ -14,7 +14,8 @@ def getlist(request, format=None):
     if request.method == 'GET':
         businfo = Businfo.objects.all()
         serializer = BusinfoSerializer(businfo, many=True)
-        return Response(serializer.data)
+        datas = {"success": True, "data": {"businfo": serializer.data}}
+        return Response(datas)
 
     elif request.method == 'POST':
         serializer = BusinfoSerializer(data=request.data)
