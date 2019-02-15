@@ -1,0 +1,17 @@
+beautifulsoup4      4.7.1     
+certifi             2018.11.29
+chardet             3.0.4     
+Django              2.1.5     
+djangorestframework 3.9.1     
+idna                2.8       
+lxml                4.3.0     
+Naked               0.1.31    
+pip                 10.0.1    
+PyMySQL             0.9.3     
+pytz                2018.9    
+PyYAML              3.13      
+requests            2.21.0    
+setuptools          39.1.0    
+soupsieve           1.7.3     
+status              0.2.5     
+urllib3             1.24.1    
